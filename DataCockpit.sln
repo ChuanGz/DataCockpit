@@ -3,12 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCockpit", "DataCockpit\DataCockpit.csproj", "{3CC1D3FF-EA57-4F59-88CE-5A2BD5DF31BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCockpit.EfCore", "DataCockpit.EfCore\DataCockpit.EfCore.csproj", "{B4FF5CCE-9BEE-486B-B06E-F84E1866C2F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CC1D3FF-EA57-4F59-88CE-5A2BD5DF31BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CC1D3FF-EA57-4F59-88CE-5A2BD5DF31BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CC1D3FF-EA57-4F59-88CE-5A2BD5DF31BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CC1D3FF-EA57-4F59-88CE-5A2BD5DF31BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4FF5CCE-9BEE-486B-B06E-F84E1866C2F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4FF5CCE-9BEE-486B-B06E-F84E1866C2F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4FF5CCE-9BEE-486B-B06E-F84E1866C2F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4FF5CCE-9BEE-486B-B06E-F84E1866C2F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39BAA9BA-954B-4E7A-8CBF-76DE1AA302E8}
 	EndGlobalSection
 EndGlobal
